@@ -37,10 +37,11 @@
 
         /*--------parallax--------*/
         if (wWidth > 767) {
-            $('.hero_area_v6').parallax("50%", 0.3);
-            $('.drone_feature_section').parallax("50%", 0.3);
+            /* $('.hero_area_v6').parallax("50%", 0.3); */
+            /* $('.drone_feature_section').parallax("50%", 0.3); */
             $('.drone_video_section').parallax("50%", 0.3);
-            $('.newsletter_section').parallax("50%", 0.3);
+            $('.newsletter_section').parallax("50%", 0.2);
+            $('.drone_service_section').parallax("50%", 0.3);
         }
         
         //--------mixitup active----------
@@ -85,159 +86,6 @@
             }
         }
     });
-
-
-    //-------testimonial carousel-------
-    $(".testimonial_wrapper, .testimonial_wrapper_v2").owlCarousel({
-        items: 1,
-        loop: true,
-        dots: true,
-        autoplay: true,
-        smartSpeed: 1200,
-        autoplayTimeout: 3000
-    });
-
-    //-------case study v8 carousel-------
-    $(".case_study_wrapper_8, .cln_testimonial_wrapper").owlCarousel({
-        items: 1,
-        loop: true,
-        dots: true,
-        autoplay: true,
-        smartSpeed: 1500,
-        autoplayTimeout: 4000
-    });
-
-    //-------client section carousel-------
-    $(".client_wrapper").owlCarousel({
-        items: 5,
-        loop: true,
-        dots: false,
-        margin: 130,
-        autoplay: false,
-        smartSpeed: 900,
-        autoplayTimeout: 3000,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-                margin: 200
-
-            },
-            480: {
-                items: 3,
-                margin: 50,
-
-            },
-            768: {
-                items: 4,
-                margin: 80,
-
-            },
-            992: {
-                items: 5,
-            }
-        }
-    });
-
-
-    //-------course_carousel-------
-    $(".topCourse_wrapper").owlCarousel({
-        items: 4,
-        loop: true,
-        margin: 30,
-        dots: true,
-        nav: false,
-        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-        autoplay: false,
-        smartSpeed: 900,
-        autoplayTimeout: 3000,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-                margin: 110
-            },
-            480: {
-                items: 1,
-
-            },
-            768: {
-                items: 2,
-
-            },
-            992: {
-                items: 3,
-            },
-            1200: {
-                items: 4,
-            }
-        }
-    });
-
-
-    //------- real ested-------
-    $(".listing_img_area").owlCarousel({
-        items: 1,
-        loop: true,
-        dots: false,
-        nav: false,
-        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-        autoplay: true,
-        smartSpeed: 900,
-        autoplayTimeout: 6000,
-        responsiveClass: true,
-    });
-    //------- real ested-------
-
-
-    $(".recent_listing_wrapper").owlCarousel({
-        items: 4,
-        loop: true,
-        margin: 30,
-        dots: true,
-        nav: false,
-        mouseDrag: false,
-        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-        autoplay: false,
-        smartSpeed: 900,
-        autoplayTimeout: 3000,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-                margin: 110
-            },
-            480: {
-                items: 1,
-
-            },
-            768: {
-                items: 2,
-
-            },
-            992: {
-                items: 3,
-            },
-            1200: {
-                items: 4,
-            }
-        }
-    });
-
-
-    //------- realested-------
-    $(".hero_carousel").owlCarousel({
-        items: 1,
-        loop: true,
-        dots: false,
-        nav: true,
-        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-        autoplay: true,
-        smartSpeed: 900,
-        autoplayTimeout: 3000,
-        responsiveClass: true,
-    });
-
 
     //-----nice select--------
     $('select').niceSelect();

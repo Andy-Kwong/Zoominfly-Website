@@ -274,6 +274,7 @@ h1,
 .h1 {
     font-size: 60px;
     line-height: 70px;
+    margin-top: 50px;
 }
 
 h2,
@@ -3323,6 +3324,18 @@ Google Map Css
 
 .hero_area_v6 .drone_content {
     height: 100vh;
+}
+
+@media (min-height: 600px) {
+    .hero_area_v6 .drone_content {
+        height: 100vh;
+    }
+}
+
+@media (max-height: 599px) {
+    .hero_area_v6 .drone_content {
+        margin-top: 50px;
+    }
 }
 
 .drone_overlay {
