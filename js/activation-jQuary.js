@@ -37,12 +37,13 @@
 
         /*--------parallax--------*/
         if (wWidth > 767) {
-            /* $('.hero_area_v6').parallax("50%", 0.3); */
-            /* $('.drone_feature_section').parallax("50%", 0.3); */
+            /*$('.hero_area_v6').parallax("50%", 0.3);
+            $('.drone_feature_section').parallax("50%", 0.3);*/
             $('.drone_video_section').parallax("50%", 0.3);
             $('.newsletter_section').parallax("50%", 0.2);
-            $('.drone_service_section').parallax("50%", 0.3);
+            $('.drone_service_section').parallax("50%", 0.1);
         }
+    });
 
 
     /* ---------------------

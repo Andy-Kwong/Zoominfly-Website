@@ -1140,83 +1140,6 @@ ul.mega_menu_item:last-child {
 /*------------------- end header section style --------------------*/
 
 
-/*------------------- start customer brand section style ------------------*/
-
-.customer_brand_section {
-    background: #f4f4f4 none repeat scroll 0 0;
-    border-bottom: 2px solid #dcdcdc;
-}
-
-.customer_brand_section .brand_txt {
-    font-size: 30px;
-    line-height: 45px;
-}
-
-
-/*------------------- end customer brand section style --------------------*/
-
-
-/*---------------hero area version-5------------*/
-
-.hero_area_v5 {
-    background: url(images/home_5bammer.jpg) no-repeat;
-    background-size: cover;
-    background-position: center top;
-}
-
-.hero_area_v5 .content {
-    align-items: left;
-    display: flex;
-    flex-flow: column nowrap;
-    height: 530px;
-    justify-content: center;
-}
-
-.hero_area_v5 .overlay {
-    background: rgba(34, 34, 34, 0.8);
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.hero_area_v5 .content h2 {
-    font-size: 48px;
-    line-height: 64px;
-}
-
-.hero_area_v5 .content li {
-    display: inline-block;
-    margin-right: 30px;
-}
-
-.hero_area_v5 .content li a.fw_500 {
-    background: #2574f3 none repeat scroll 0 0;
-    border-radius: 5px;
-    color: #fff;
-    display: inline-block;
-    padding: 14px 32px;
-}
-
-.hero_area_v5 .content li a.fw_500:hover {
-    background: #0453d2;
-}
-
-.hero_area_v5 .content li a {
-    color: #fff;
-}
-
-.hero_area_v5 .content li a i {
-    font-size: 27px;
-    margin-right: 10px;
-    vertical-align: middle;
-}
-
-
-/*---------------end hero area version-5------------*/
-
-
 /*------------------- start about section style ------------------*/
 
 .about_section .single_box {
@@ -1262,39 +1185,6 @@ ul.mega_menu_item:last-child {
 
 
 /*------------------- end about section style --------------------*/
-
-
-/*------------------- start testimonial section style ------------------*/
-
-.testimonial_section {
-    background: url(images/testimonial_bg.jpg) no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-.testimonial_section .single_testimonial>p {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 35px;
-}
-
-.testimonial_section .single_testimonial h6 a {
-    color: #fff;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.testimonial_section .single_testimonial span {
-    color: #999999;
-    font-size: 12px;
-    display: block;
-}
-
-
-/*------------------- end testimonial section style --------------------*/
-
-
 /*------------------- start service section style ------------------*/
 
 .service_section {
@@ -1754,35 +1644,6 @@ KEY FRAME
 /*================================================================
                         Start Service page style
 ==================================================================*/
-
-
-/*------------------- start service banner section style ------------------*/
-
-.header_v2 {
-    top: 0;
-}
-
-.header_v2 ul li a {
-    color: #444;
-}
-
-.header_v2 {
-    top: 0;
-    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
-}
-
-.service_page_banner {
-    background: url(images/testimonial_bg.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
-.banner_content {
-    padding: 90px 0;
-}
-
-
-/*------------------- end service section style --------------------*/
 
 
 /*------------------- start all service section style --------------------*/
@@ -3314,7 +3175,7 @@ Google Map Css
 /*-----hero area v-5----------*/
 
 .hero_area_v6 {
-    background: url(images/indoor_race_track.png) no-repeat;
+    background: url(images/indoor_race_track.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -3396,7 +3257,7 @@ Google Map Css
 /*---------------drone feature section-------------*/
 
 .drone_service_section {
-    background: url(images/no_drones.png) no-repeat;
+    background: url(images/no_drones.jpg) no-repeat;
     background-size: cover;
     background-position: center top;
     position: relative;
@@ -3472,7 +3333,7 @@ Google Map Css
 /*------------drone feature section------------*/
 
 .drone_feature_section {
-    background: url(images/indoor_race_track_2.png) no-repeat;
+    background: url(images/indoor_race_track_2.jpg) no-repeat;
     background-size: cover;
     background-position: center top;
     position: relative;
