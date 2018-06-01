@@ -43,17 +43,6 @@
             $('.newsletter_section').parallax("50%", 0.2);
             $('.drone_service_section').parallax("50%", 0.3);
         }
-        
-        //--------mixitup active----------
-        $('#ecogallery').mixItUp({
-            animation: {
-                effects: 'fade'
-            }
-        });
-
-
-    });
-
 
 
     /* ---------------------
